@@ -5,10 +5,17 @@
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "yarn": "^1.22.15"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Saito2109/DIC_task_list_app.git",
+  "author": "saitonaoki <reisa.naoki@icloud.com>",
+  "license": "MIT"
 }
