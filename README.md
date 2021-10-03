@@ -1,25 +1,21 @@
 # README
+テーブルスキーマ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+|users|tasks| tasklabelings    | 
+| --- | --- | --- | 
+|user_name:string| task_name:string|task:references    | 
+|email:string|content:string | user:references    | 
+|password:string|limit:date |     | 
+|               |status:integer|  |
+|               | pariority:integer|  |
+|               |user_id:references |  | 
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
 # DIC_task_list_app
