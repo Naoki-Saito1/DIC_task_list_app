@@ -46,5 +46,5 @@ group :test do
   gem 'webdrivers'
 end
 
-
+gem 'rails-i18n'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
